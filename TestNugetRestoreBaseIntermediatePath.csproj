@@ -1,0 +1,10 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <BaseIntermediateOutputPath>$([System.IO.Path]::GetFullPath('$(MSBuildProjectDirectory)\Temp\$(AssemblyName)\'))</BaseIntermediateOutputPath>
+    <IntermediateOutputPath>$([System.IO.Path]::GetFullPath('$(MSBuildProjectDirectory)\Temp2\$(AssemblyName)\'))</IntermediateOutputPath>
+  </PropertyGroup>
+
+</Project>
